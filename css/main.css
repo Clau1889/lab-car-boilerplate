@@ -79,5 +79,25 @@
     text-align: center;
 }
 
+/************************* CONTENEDOR- DESCARGA APP *******************/
 
+.cont-download{
+    background-color: rgb(255, 196, 0);
+    height: 30em;
+    margin-top: -2em;
+}
 
+.box-app{
+    margin-bottom: 2.5em;
+    margin-top: 2.5em;
+    width: 80%;
+}
+
+.img-iphone{
+
+}
+
+.text-iphone{
+    text-align: left;
+    padding: 3em;  
+}
