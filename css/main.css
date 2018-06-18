@@ -26,3 +26,58 @@
     background-size: cover;
     height: 35em;
 }
+
+/************************* FORMULARIO-HERO*******************/
+#sign-up-form{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    float: right;
+    font-weight: bold;
+    margin-top: 2em;
+    padding: 2em;
+}
+
+#sign-up-form > img{
+    width: 50%;
+}
+
+.cont-text{
+    padding: 0.5em;
+}
+
+.item-text{
+    padding:0;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 0.2em;
+    margin-top: 0.5em;
+    padding: 0.5em 0.3em;
+    width: 100%;
+}
+
+.cont-form-text{
+    margin-left: -1em;
+    margin-top: 1em;
+}
+
+.hr-form{
+    background-color: white;
+    height: 0.05em;
+    padding: 0;
+}
+
+.small-form{
+    color: white;
+    font-size: 0.6em;
+    font-weight: bold;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+
+
