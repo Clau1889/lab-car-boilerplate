@@ -1,1 +1,19 @@
-/* Los estilos de tu proyecto */
+.navbar-brand{
+    padding: 0.5em 1.5em;
+}
+
+.navbar-nav{
+    margin-left: 10em;
+    padding: 0.5em 1.5em;
+}
+
+.sing-up{
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    background-color: rgba(230, 225, 225, 0.664);
+    border-radius: 5%;
+    font-weight: bold;
+}
+
