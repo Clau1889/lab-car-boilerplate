@@ -264,10 +264,10 @@
     width: 150%;
 }
 
-/************************* FOOOTER *******************/
+/************************* FOOOTER/DESKTOP *******************/
 .footer{
     background-color: rgb(39, 37, 37);
-    height: 28em;
+    height: auto;
 }
 
 .cont-footer{
@@ -291,7 +291,8 @@
 
 .redes-sociales{
     float: right;
-    margin-top: 6em;
+    padding-left: 4em;
+    margin-top: 15em;
 }
 
 .text-footer > a{
@@ -304,17 +305,70 @@
 }
 
 .logos-app{
-    margin-top: 2em;
+    padding-left: 3.5em;
+    margin-top: 10em;
 }
 
 .logo-app{
     display: block;
     margin-top: 1em;
-    width: 30%;
+    width: 100%;
 }
 
 .final-text{
     color: white;
+    padding-left: 5em;
+    padding-bottom: 1em;
+    text-align: left;
+}
+
+/************************* FOOOTER/MOBILE *******************/
+.footer-mobile{
+    background-color: rgb(39, 37, 37);
+    height: auto;
+}
+
+.text-footer-container-mobile{
+    margin: 1.5em 0;
+}
+
+.line-footer-mobile{
+    background-color: white;
+    border: 1px solid white;
+    margin: 1em;
+}
+
+.img-logo-labcar-mobile{
+    float:left;
+    margin: 0.5em 1em;
+}
+
+
+.text-footer-mobile > a{
+    color: white;
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0.3em;
+    padding-left: 1.5em;
+    text-decoration: none;
+}
+
+.redes-sociales-mobile{
+    float: right;
+    margin-top: 8em;
+    margin-bottom: 1.5em;
+    width:50%;
+}
+
+.logo-app-mobile{
+    display: block;
+    margin: 1.5em 1em;
+    width: 80%;
+}
+
+.final-text-mobile{
+    color: white;
+    margin-top: -1em;
     padding-left: 5em;
     text-align: left;
 }
