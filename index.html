@@ -112,25 +112,38 @@
         </div>
     </section>
     <!--SECCION: MAPA-->
-    <section class="row map">
-        <section class="col-sm-12  box-map">
+    <section class="row map map-mobile">
+        <section class="col-12 col-sm-12  box-map box-map-mobile">
             <div class="row cont-text-map">
-                <div class="offset-sm-1 col-sm-5 box-text-drive ">
+                <div class=" offset-1 col-11 offset-sm-1 col-sm-5 box-text-drive ">
                     <h3>Tarifas</h3>
                     <br>
                     <p>Consulta las tarifas LabCar aquí </p>
-                    <div class="row form-text">
-                        <img class="col-sm-4 img-shape" src="assets/images/shape.png" alt=""><input class="col-md-8 text" type="text" placeholder="Ingrese su punto de partida" readonly>
+                    <div class="row form-text d-none d-ms-block">
+                        <img class="col-sm-4 img-shape" src="assets/images/shape.png" alt="">
+                        <input class="col-md-8 text" type="text" placeholder="Ingrese su punto de partida" readonly>
                         <br>
-                        <img class="col-sm-4 img-shape" src="assets/images/shape2.png" alt=""><input class="col-md-8 text" type="text" placeholder="Ingrese su destino" readonly>
+                        <img class="col-sm-4 img-shape" src="assets/images/shape2.png" alt="">
+                        <input class="col-7 col-md-8 text" type="text" placeholder="Ingrese su destino" readonly>
+                    </div>
+                    <br>
+                    <div class="row form-text d-block d-ms-none">
+                        <img class="col-5 img-shape-mobile" src="assets/images/shape.png" alt="">
+                        <input class="col-7 text" type="text" placeholder="Ingrese su punto de partida" readonly>
+                        <br>
+                        <img class="col-5 img-shape-mobile" src="assets/images/shape2.png" alt="">
+                        <input class="col-7 text" type="text" placeholder="Ingrese su destino" readonly>
                     </div>
                     <br>
                     <div class="row map-btn ">
-                        <button type="submit" class="col-sm-5 btn btn-draw border ">¡TRAZAR RUTA!</button>
+                        <button type="submit" class="col-6 col-sm-5 btn btn-draw border ">¡TRAZAR RUTA!</button>
                     </div>
                 </div>
-                <div class="offset-sm-1 col-sm-5 box-map-img">
+                <div class="offset-sm-1 col-sm-5 d-none d-sm-block box-map-img">
                     <img class="america-latina" src="assets/images/map-america-latina.png" alt="img-map">
+                </div>
+                <div class="offset-2 col-8  d-block d-sm-none box-map-img-mobile">
+                    <img class="img-cdmx" src="assets/images/map-cdmx.png" alt="img-map">
                 </div>
         </section>
     </section>

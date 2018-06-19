@@ -200,6 +200,16 @@
     height: 26em;
 }
 
+.map-mobile{
+    background-color: rgb(255, 196, 0);
+    height: auto;
+}
+
+.box-map-mobile{
+    background-color: rgb(255, 196, 0);
+    height: auto;
+}
+
 .box-map{
     margin-top: 3em;
 }
@@ -223,6 +233,10 @@
     width: 10%;
 }
 
+.img-shape-mobile{
+    width: 15%;
+}
+
 .text{
     background-color: rgb(255, 196, 0);
     border-radius: 5%;
@@ -238,6 +252,16 @@
     border: 1px solid white;
     padding: 0.3em;
     width: 70%;
+}
+
+.box-map-img-mobile{
+    margin: 2em 1em;
+}
+
+.img-cdmx{
+    border: 1px solid white;
+    padding: 0.3em;
+    width: 150%;
 }
 
 /************************* FOOOTER *******************/
