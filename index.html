@@ -33,9 +33,9 @@
         </div>
     </nav>
     <!--HERO-->
-    <div class="row jumbotron jumbotron-fluid">
-        <!--ESTRUCTURA FORMULARIO-->
-        <form id="sign-up-form" class="col-sm-5 offset-sm-7 form">
+    <div class="row d-none d-sm-block jumbotron jumbotron-fluid">
+        <!--ESTRUCTURA FORMULARIO DESKTOP-->
+        <form id="sign-up-form" class="col-sm-5 offset-sm-7 d-none d-sm-block form">
             <div class="row">
                 <h3 class="col-sm-12">Disfruta del viaje</h3>
             </div>
@@ -62,6 +62,20 @@
             </div>
         </form>
     </div>
+    <!--ESTRUCTURA FORMULARIO MOBILE-->
+<div class="row d-block d-sm-none jumbotron-mobile jumbotron-fluid">
+    <form id="sign-up-form-mobile" class="col-8 offset-4 d-block d-sm-none form">
+        <div class="row">
+            <div class="cont-text">
+                <span class="col-8 offset-1 item-text">Comienza a viajar con</span>
+                <img class="col-6 offset-1 item-text" src="assets/images/logoBlanco.png" alt="logo-labCar-white">
+            </div>
+        </div>
+        <div class="row">
+            <button type="submit" class="col-8 offset-1 btn-primary-mobile border ">Descarga el app</button>
+        </div>
+    </form>
+</div>
     <!--SECCION: DESCARGA APP-->
     <section class="row cont-download">
         <section class="col-sm-9 border box-app" >

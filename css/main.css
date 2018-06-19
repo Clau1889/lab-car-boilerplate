@@ -79,6 +79,30 @@
     text-align: center;
 }
 
+/*************************HERO/MOBILE*******************/
+.jumbotron-mobile{
+    background-image: url(../assets/images/taxi.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 20em;
+}
+
+#sign-up-form-mobile{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    float: right;
+    font-weight: bold;
+    margin-top: 3.5em;
+    padding: 1.5em 1em;
+}
+
+.btn-primary-mobile{
+    background-color: white;
+    border-radius: 5%;
+    padding: 0.5em;
+}
+
 /************************* CONTENEDOR- DESCARGA APP *******************/
 
 .cont-download{
