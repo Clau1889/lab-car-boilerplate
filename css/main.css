@@ -106,18 +106,17 @@
 /************************* CONTENEDOR- DESCARGA APP / desktop*******************/
 .cont-download{
     background-color: rgb(255, 196, 0);
-    height: 31em;
+    height: auto;
     margin-top: -2em;
+    padding: 1em 0;
 }
 
 .box-app{
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin: 2em 0;
     padding: 1em 3em ;
 }
 
 .img-iphone{
-
     padding: 0.5em;
 }
 
@@ -129,7 +128,7 @@
 /************************* CONTENEDOR- DESCARGA APP / MOBILE*******************/
 .cont-download-mobile{
     background-color: rgb(255, 196, 0);
-    height: 32em;
+    height: auto;
     margin-top: -1em; 
 }
 
@@ -149,7 +148,7 @@
 }
 
 .img-mobile{
-    height: 30%;
+    height: auto;
     padding: 0 1em 1em;
 }
 
@@ -163,7 +162,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 25em;
+    margin-top: -0.5em;
+    height: auto;
 }
 
 .box-text{
@@ -188,6 +188,11 @@
     padding: 0.3em;
     width: 60%;
 }
+
+.text-drive-mobile{
+    width:100%;
+}
+
 
 /************************* CONTENEDOR- MAPA*******************/
 .map{
