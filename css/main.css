@@ -103,8 +103,7 @@
     padding: 0.5em;
 }
 
-/************************* CONTENEDOR- DESCARGA APP *******************/
-
+/************************* CONTENEDOR- DESCARGA APP / desktop*******************/
 .cont-download{
     background-color: rgb(255, 196, 0);
     height: 31em;
@@ -125,6 +124,37 @@
 .text-iphone{
     text-align: left;
     padding: 3em;  
+}
+
+/************************* CONTENEDOR- DESCARGA APP / MOBILE*******************/
+.cont-download-mobile{
+    background-color: rgb(255, 196, 0);
+    height: 32em;
+    margin-top: -1em; 
+}
+
+.box-app-mobile{
+    padding: 1em;
+}
+
+.box-context-mobile{
+    border: 1px solid white;
+    margin: 1em 0.5em 1em 1em;
+}
+
+.text-download-mobile{
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.img-mobile{
+    height: 30%;
+    padding: 0 1em 1em;
+}
+
+.text-iphone-mobile{
+    margin-left: 1em;
 }
 
 /************************* CONTENEDOR- CONDUCE*******************/
