@@ -1,1 +1,3 @@
-// La funcionalidad de tu proyecto
+$('#modal-log-in').modal('show');
+
+// 
