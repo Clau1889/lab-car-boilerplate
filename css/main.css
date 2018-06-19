@@ -138,7 +138,7 @@
 /************************* CONTENEDOR- MAPA*******************/
 .map{
     background-color: rgb(255, 196, 0);
-    height: 22em;
+    height: 26em;
 }
 
 .box-map{
@@ -163,6 +163,7 @@
 .img-shape{
     width: 10%;
 }
+
 .text{
     background-color: rgb(255, 196, 0);
     border-radius: 5%;
@@ -183,7 +184,7 @@
 /************************* FOOOTER *******************/
 .footer{
     background-color: rgb(39, 37, 37);
-    height: 22em;
+    height: 28em;
 }
 
 .cont-footer{
@@ -197,7 +198,7 @@
 .line-footer{
     background-color: white;
     border: 1px solid white;
-    margin: 0.5em;
+    margin: 1em;
 }
 
 .img-logo-labcar{
@@ -213,7 +214,7 @@
 .text-footer > a{
     color: white;
     display: block;
-    font-size: 0.5em;
+    font-size: 1em;
     margin-bottom: 0.3em;
     padding-left: 4em;
     text-decoration: none;
@@ -231,7 +232,6 @@
 
 .final-text{
     color: white;
-    font-size: 50%;
     padding-left: 5em;
     text-align: left;
 }
