@@ -179,3 +179,59 @@
     padding: 0.3em;
     width: 70%;
 }
+
+/************************* FOOOTER *******************/
+.footer{
+    background-color: rgb(39, 37, 37);
+    height: 22em;
+}
+
+.cont-footer{
+    padding: 1.5em;
+}
+
+.text-footer-container{
+    margin: 1.5em 0;
+}
+
+.line-footer{
+    background-color: white;
+    border: 1px solid white;
+    margin: 0.5em;
+}
+
+.img-logo-labcar{
+    float:left;
+    margin: 0.5em;
+}
+
+.redes-sociales{
+    float: right;
+    margin-top: 6em;
+}
+
+.text-footer > a{
+    color: white;
+    display: block;
+    font-size: 0.5em;
+    margin-bottom: 0.3em;
+    padding-left: 4em;
+    text-decoration: none;
+}
+
+.logos-app{
+    margin-top: 2em;
+}
+
+.logo-app{
+    display: block;
+    margin-top: 1em;
+    width: 30%;
+}
+
+.final-text{
+    color: white;
+    font-size: 50%;
+    padding-left: 5em;
+    text-align: left;
+}
