@@ -195,10 +195,21 @@
 
 
 /************************* CONTENEDOR- MAPA*******************/
-.map{
+/* #map{
     background-color: rgb(255, 196, 0);
     height: 26em;
-}
+} */
+
+#map {
+    height: 15em;
+  }
+
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 20em;
+    margin: 0;
+    padding: 0;
+  }
 
 .map-mobile{
     background-color: rgb(255, 196, 0);
